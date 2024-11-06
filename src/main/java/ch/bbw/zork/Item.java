@@ -22,4 +22,9 @@ public class Item {
     public Room getRoom() {
         return room;
     }
+
+    @Override
+    public String toString() {
+        return "Items in this room: " + name + ", " + description;
+    }
 }
